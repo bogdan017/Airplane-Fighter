@@ -149,6 +149,7 @@ function game() {
             ) {
                 gameOver = true;
                 gameOverConatiner.innerHTML = "GAME OVER!";
+                ctx.clearRect(airplane.x - 40, airplane.y - 70, 80, 80);
             }
         }
         //the airplane is treated like it is contained in a transparent square 
