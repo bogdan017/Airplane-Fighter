@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100vh;
+  }
+
+  canvas {
+    border: 3px solid black;
+    margin: 10px;
+  }
+
+  #score, #resetGame, #gameOver {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 50px;
+    font-size: 30px ;
+  }
